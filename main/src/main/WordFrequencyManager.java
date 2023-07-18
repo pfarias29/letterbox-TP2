@@ -52,13 +52,15 @@ public class WordFrequencyManager {
         return temp;
     }
     
-    public void dispatch(String[] message) {
+    public ArrayList<Pair> dispatch(String[] message) {
         if (message[0].equals("increment_count")) {
             this.incrementCount(message[1]);
         } else if (message[0].equals("sorted")) {
-            this.sorted();
+            return this.sorted();
         } else {
             throw new RuntimeException("Message not understood " + message[0]);
         }
+        
+        return new ArrayList<>();
     }
 }

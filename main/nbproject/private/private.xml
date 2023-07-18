@@ -4,8 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Pedro/Downloads/video%20TP2/main/src/main/WordFrequencyManager.java</file>
+            <file>file:/C:/Users/Pedro/Downloads/video%20TP2/main/src/main/StopWordsManager.java</file>
             <file>file:/C:/Users/Pedro/Downloads/video%20TP2/main/src/main/Main.java</file>
-            <file>file:/C:/Users/Pedro/Downloads/video%20TP2/main/src/main/DataStoreManager.java</file>
+            <file>file:/C:/Users/Pedro/Downloads/video%20TP2/main/src/main/WordFrequencyController.java</file>
+            <file>file:/C:/Users/Pedro/Downloads/video%20TP2/main/src/main/DataStorageManager.java</file>
         </group>
     </open-files>
 </project-private>
